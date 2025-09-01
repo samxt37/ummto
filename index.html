@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Université Mouloud Mammeri de Tizi-Ouzou</title>
+    <meta name="description" content="Site officiel de l'Université Mouloud Mammeri de Tizi-Ouzou avec portail étudiant et calendrier des événements">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="UMMTO Logo">
+                <h1>Université Mouloud Mammeri de Tizi-Ouzou</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="pages/university.html">Université</a></li>
+                    <li><a href="pages/pedagogy.html">Pédagogie</a></li>
+                    <li><a href="pages/research.html">Recherche</a></li>
+                    <li><a href="pages/cooperation.html">Coopération</a></li>
+                    <li><a href="pages/prospective.html">Prospective</a></li>
+                    <li><a href="student-portal/">Portail Étudiant</a></li>
+                    <li><a href="calendar/">Calendrier</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Rechercher..." id="search-input">
+                    <button id="search-btn">🔍</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-slider">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="images/slide1.jpg" alt="Bienvenue aux nouveaux bacheliers">
+                    <div class="slide-content">
+                        <h2>Bienvenue à nos nouveaux bacheliers</h2>
+                        <p>Félicitations !</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/slide2.jpg" alt="Actualités UMMTO">
+                    <div class="slide-content">
+                        <h2>Dernières actualités</h2>
+                        <p>Découvrez les événements récents</p>
+                    </div>
+                </div>
+            </div>
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </section>
+
+        <section class="tabs-section">
+            <div class="container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="news">Actualité</button>
+                    <button class="tab-btn" data-tab="student-life">Vie étudiante</button>
+                    <button class="tab-btn" data-tab="defenses">Soutenances</button>
+                    <button class="tab-btn" data-tab="calls">Appels d'offres</button>
+                </div>
+                <div class="tab-content">
+                    <div id="news" class="tab-pane active">
+                        <div class="news-grid">
+                            <article class="news-item">
+                                <img src="images/news1.jpg" alt="News 1">
+                                <h3>Appel à candidature Master</h3>
+                                <p>Détails sur le master professionnel...</p>
+                                <a href="#">Lire plus</a>
+                            </article>
+                            <!-- More news items -->
+                        </div>
+                    </div>
+                    <div id="student-life" class="tab-pane">
+                        <p>Informations sur la vie étudiante...</p>
+                    </div>
+                    <div id="defenses" class="tab-pane">
+                        <p>Calendrier des soutenances...</p>
+                    </div>
+                    <div id="calls" class="tab-pane">
+                        <p>Appels d'offres en cours...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <img src="images/faculties.jpg" alt="Facultés">
+                        <h3>Facultés</h3>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/dspace.jpg" alt="DSpace">
+                        <h3>Dépôt institutionnel</h3>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/messaging.jpg" alt="Messagerie">
+                        <h3>Messagerie professionnelle</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="#">MESRS</a></li>
+                        <li><a href="#">DGRSDT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Université Mouloud Mammeri de Tizi-Ouzou</p>
+                    <p>Tél: +213 26 11 56 51</p>
+                    <p>Email: univ_tizi@ummto.dz</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2025 UMMTO. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
